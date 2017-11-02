@@ -11,6 +11,6 @@ public class DemoController {
     @RequestMapping("/")
     @ResponseBody
     String home() {
-        return "Hello World!";
+        return "Hello Docker's World!";
     }
 }
